@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gizgram Kayıt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Gizgram Kayıt</h2>
+    <form id="registerForm">
+      <input type="text" placeholder="Kullanıcı Adı" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Şifre" required>
+      <button type="submit">Kayıt Ol</button>
+    </form>
+    <p>Zaten hesabın var mı? <a href="login.html">Giriş Yap</a></p>
+  </div>
+
+  <script>
+    const registerForm = document.getElementById('registerForm');
+    registerForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Kayıt başarılı! (demo)');
+      window.location.href = "index.html";
+    });
+  </script>
+</body>
+</html>
