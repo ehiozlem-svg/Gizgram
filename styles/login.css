@@ -1,0 +1,17 @@
+/* Login sayfası stilleri */
+
+.login-container {
+  @apply flex flex-col items-center justify-center min-h-screen bg-gray-50;
+}
+
+.login-card {
+  @apply bg-white p-8 rounded-lg shadow-md w-full max-w-md;
+}
+
+.login-card input {
+  @apply w-full p-3 mb-4 border border-gray-300 rounded-md;
+}
+
+.login-card button {
+  @apply w-full p-3 bg-blue-500 text-white rounded-md hover:bg-blue-600;
+}
