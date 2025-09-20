@@ -1,0 +1,2 @@
+# Gizgram
+MİNİ SOSYAL MEDYA UYGULAMASI
