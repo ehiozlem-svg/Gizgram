@@ -1,0 +1,13 @@
+/* Ana sayfa stilleri */
+
+.header {
+  @apply flex justify-between items-center p-4 bg-white shadow-md;
+}
+
+.post-card {
+  @apply bg-white p-4 rounded-lg shadow-md mb-4;
+}
+
+.post-card img {
+  @apply w-full h-auto rounded-md;
+}
