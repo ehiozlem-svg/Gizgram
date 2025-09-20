@@ -15,5 +15,12 @@
     </form>
     <p>Hesabın yok mu? <a href="register.html">Kayıt Ol</a></p>
   </div>
+  <script>
+  const loginForm = document.getElementById('loginForm');
+  loginForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Giriş başarılı! (demo)');
+  });
+</script>
 </body>
 </html>
