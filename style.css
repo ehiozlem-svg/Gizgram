@@ -37,3 +37,7 @@ h1 {
 h1, h2, h3 {
   font-weight: bold;
 }
+p {
+  font-size: 16px; /* Okunabilirliği artırır */
+  line-height: 1.5; /* Satırlar arasında boşluk */
+}
