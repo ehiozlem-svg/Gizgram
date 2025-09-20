@@ -41,3 +41,10 @@ p {
   font-size: 16px; /* Okunabilirliği artırır */
   line-height: 1.5; /* Satırlar arasında boşluk */
 }
+.post {
+  color: white; /* Yazı beyaz */
+  background-color: #333; /* Koyu gri arka plan */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Postlar arası boşluk */
+}
