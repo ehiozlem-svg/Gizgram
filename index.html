@@ -31,8 +31,22 @@
     // Demo kullanıcı ismi
     const username = "Giz";
     const welcomeMsg = document.getElementById('welcomeMsg');
-    welcomeMsg.textContent = `${username} olarak giriş yaptınız!`;
-  </script>
+    welcomeMsg.textContent = `${username} olarak giriş yaptınız!`; 
+ <script>
+  const postBtn = document.getElementById('postBtn');
+  const newPost = document.getElementById('newPost');
+  const postsContainer = document.getElementById('postsContainer');
+
+  postBtn.addEventListener('click', () => {
+    if(newPost.value.trim() !== "") {
+      const postDiv = document.createElement('div');
+      postDiv.className = "post";
+      postDiv.textContent = newPost.value;
+      postsContainer.appendChild(postDiv);
+      newPost.value = "";
+    }
+  });
+</script>
 </body>
 <div class="add-post">
   <input type="text" id="newPost" placeholder="Yeni postunuzu yazın">
