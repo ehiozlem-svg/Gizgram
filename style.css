@@ -108,3 +108,31 @@ a:hover, button:hover {
   color: #fff;
   text-decoration: underline;
 }
+.add-post {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.add-post input {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.add-post button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-post button:hover {
+  background-color: #ff4500;
+}
