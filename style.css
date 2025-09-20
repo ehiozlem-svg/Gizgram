@@ -21,3 +21,8 @@ h1 {
   border: 1px solid #dbdbdb;
   border-radius: 8px;
 }
+.post:hover {
+  transform: scale(1.05); /* Kutuyu hafif büyütür */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Gölgeyi güçlendirir */
+  transition: all 0.3s ease; /* Yumuşak geçiş efekti */
+}
