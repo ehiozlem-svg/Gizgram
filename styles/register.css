@@ -1,0 +1,17 @@
+* Register sayfası stilleri */
+
+.register-container {
+  @apply flex flex-col items-center justify-center min-h-screen bg-gray-50;
+}
+
+.register-card {
+  @apply bg-white p-8 rounded-lg shadow-md w-full max-w-md;
+}
+
+.register-card input {
+  @apply w-full p-3 mb-4 border border-gray-300 rounded-md;
+}
+
+.register-card button {
+  @apply w-full p-3 bg-green-500 text-white rounded-md hover:bg-green-600;
+}
