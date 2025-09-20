@@ -26,3 +26,11 @@ h1 {
   box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Gölgeyi güçlendirir */
   transition: all 0.3s ease; /* Yumuşak geçiş efekti */
 }
+.post {
+  transition: all 0.3s ease; /* Hover için geçiş efekti */
+}
+
+.post:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4); 
+}
