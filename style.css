@@ -48,3 +48,11 @@ p {
   border-radius: 8px;
   margin-bottom: 20px; /* Postlar arası boşluk */
 }
+a, button {
+  color: #ff6347; /* Tomat kırmızı */
+  text-decoration: none; /* Alt çizgi kaldır */
+}
+
+a:hover, button:hover {
+  color: #ff4500; /* Hover rengi biraz daha koyu kırmızı */
+}
